@@ -1,0 +1,25 @@
+.products {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/*  for Small Devices(Mobile) */
+@media screen and (max-width: 425px) {
+    .products {
+        padding: 1rem;
+    }
+}
+
+/* for Large Devices(Tablet) */
+@media screen and (min-width: 424px) and (max-width: 768px) {
+    .products {
+        padding-top: 1rem;
+        ;
+    }
+}
